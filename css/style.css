@@ -731,6 +731,25 @@ textarea {
     font-size: 1.5rem;
   }
 }
+.header__resume {
+  padding: 2.2rem 3rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+.header__resume:hover {
+  color: #03c988;
+}
+@media only screen and (max-width: 56.25em) {
+  .header__resume {
+    padding: 3rem 1.8rem;
+    font-size: 1.5rem;
+  }
+}
 .header__main-ham-menu-cont {
   display: none;
   width: 3rem;
@@ -790,6 +809,23 @@ textarea {
 }
 .header__sm-menu-link-last {
   border-bottom: 0;
+}
+
+.header__sm-menu-resume a {
+  display: block;
+  text-decoration: none;
+  padding: 2.5rem 3rem;
+  font-size: 1.6rem;
+  color: #333;
+  text-align: right;
+  border-bottom: 1px solid #eee;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: color 0.3s;
+}
+.header__sm-menu-resume a:hover {
+  color: #03c988;
 }
 
 .main-footer {
