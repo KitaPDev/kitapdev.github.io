@@ -189,6 +189,17 @@ textarea {
   padding: 1.5rem 8rem;
   font-size: 2rem;
 }
+.btn--bg-resume {
+  margin-left: 2rem;
+}
+@media only screen and (max-width: 640px) {
+  .btn--bg-resume {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .btn--med {
   padding: 1.5rem 5rem;
   font-size: 1.6rem;
